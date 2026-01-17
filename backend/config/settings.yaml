@@ -1,0 +1,4 @@
+# Bot configurations
+asset: "BTC/USD"
+volatility_threshold: 0.5
+sleep_hours: ["00:00", "06:00"]
