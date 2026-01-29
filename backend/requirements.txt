@@ -1,3 +1,7 @@
-fastapi
-pandas
-requests
+fastapi==0.115.0        # Lightweight backend framework
+uvicorn==0.30.0         # ASGI server to run FastAPI
+pandas==2.2.2           # OHLC data handling, volatility calculations
+numpy==1.26.4           # Math operations for rolling std-dev
+requests==2.32.3        # API calls (mock now, Deriv API later)
+python-dotenv==1.0.1    # Load secrets/env variables
+PyYAML==6.0.2           # Parse config/settings.yaml

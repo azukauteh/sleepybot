@@ -1,12 +1,31 @@
 # SleepyBot
 
 ## Overview
-SleepyBot is a lightweight trading bot designed to operate during low-volatility hours. It prioritizes safety, reproducibility, and audit-friendly documentation.
+SleepyBot is a cutting-edge trading bot designed to operate during low-volatility hours, ensuring safe and efficient trading. Built with a focus on safety, reproducibility, and audit-friendly documentation, SleepyBot is the ideal solution for traders looking to automate their strategies during calm market conditions.
 
 ## Features
-- **Volatility Filtering**: Trades only during low-volatility periods.
-- **Audit-Friendly Logging**: JSON-based trade logs for transparency.
-- **Modular Design**: Easy to extend and maintain.
+- **Volatility Filtering**: Trades only during low-volatility periods, minimizing risks.
+- **Audit-Friendly Logging**: JSON-based trade logs provide complete transparency and traceability.
+- **Modular Design**: Highly extensible and easy to maintain, making it suitable for diverse trading strategies.
+
+## Tools and Technologies
+SleepyBot leverages the following tools and technologies:
+
+### Backend
+- **Python**: Core programming language for backend logic.
+- **FastAPI**: Framework for building the RESTful API.
+- **Uvicorn**: ASGI server for running the FastAPI application.
+- **PyYAML**: For configuration management.
+- **Logging**: Built-in Python logging for detailed trade logs.
+
+### Frontend
+- **React**: JavaScript library for building the user interface.
+- **Vite**: Build tool for fast development.
+- **Axios**: For API communication.
+
+### Additional Tools
+- **Docker**: Containerization for consistent deployment.
+- **Git**: Version control for collaborative development.
 
 ## Setup
 
@@ -52,6 +71,9 @@ SleepyBot is a lightweight trading bot designed to operate during low-volatility
 ```
 
 ## Future Improvements
-- Sentiment analysis integration.
-- Real-time dashboard for monitoring.
-- Enhanced trading strategies.
+- **Sentiment Analysis Integration**: Incorporate market sentiment data to enhance decision-making.
+- **Real-Time Dashboard**: Develop a live dashboard for monitoring trades and performance.
+- **Enhanced Trading Strategies**: Introduce advanced algorithms for better profitability.
+
+## About
+SleepyBot is built for **Derive AI**, combining the power of artificial intelligence with robust trading principles to deliver a reliable and efficient trading solution.
